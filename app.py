@@ -606,5 +606,3 @@ def location(message):
          f"<b>To'lovni qanday turda bo'lishini tanlang</b>"
          
     bot.send_message(message.chat.id,text,parse_mode='html',reply_markup=payment)
-# if  __name__=='__main__':
-#    bot.polling(none_stop=True)
